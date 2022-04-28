@@ -1,0 +1,13 @@
+<template>
+
+
+    <lightning-button variant="success" label="Success" title="Success button" onclick={handleClick}
+        class="slds-m-left_x-small"></lightning-button>
+
+    <lightning-card title={titleMessage} icon-name="standard:agent_home">
+        <lightning-button-icon icon-name="utility:emoji" variant="border-filled" alternative-text="Show More"
+            slot="actions"></lightning-button-icon>
+        <p class="slds-p-horizontal_small slds-text-color_success">{bodyMessage}</p>
+
+    </lightning-card>
+</template>
